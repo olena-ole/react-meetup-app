@@ -2,7 +2,6 @@ import { Link } from "react-router-dom"
 import classes from './MainNavigation.module.css'
 
 export default function MainNavigation() {
-    console.log(classes)
     return (
         <header className={classes.header}>
             <div className={classes.logo}>React Meetups</div>
